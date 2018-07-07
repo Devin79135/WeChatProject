@@ -1,0 +1,12 @@
+<!--pages/about/about.wxml-->
+<view class='container'>
+    <image src='{{mapImage}}'></image>
+    <view class='mapInfo'>
+      <text><text class='weight'>公司名称：</text>{{name}}</text>
+      <text><text class='weight'>公司地址：</text>{{address}}</text>
+      <text><text class='weight'>联系方式：</text>{{tel}}</text>
+    </view>
+</view>
+
+<import src='../common.wxml' data='{{tabBar}}' />  
+<template is='navTab' data='{{tabBar}}'></template>

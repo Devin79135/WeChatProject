@@ -1,0 +1,11 @@
+<template name='navTab'>
+  <view class='btn-area'>
+    <block wx:for='{{tabBar}}' wx:key=''>
+        <navigator url='{{item.URL}}' class='navigator-item' hover-class="none" bindtap='tabBarBtn' data-index='{{index}}'>
+          <block wx:if='{{item.selected === 1}}'><image src='{{item.selectedIcon}}'></image></block>
+          <block wx:else><image src='{{item.icon}}'></image></block>
+          <text>{{item.title}}</text>
+        </navigator>
+    </block>
+  </view>
+</template>

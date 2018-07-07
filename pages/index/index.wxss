@@ -1,0 +1,133 @@
+/* pages/index/index.wxss */
+@import '../common.wxss';
+page {
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 33%;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+.serviceType {
+  width: 100%;
+  height: 20%;
+}
+
+.serviceTrade {
+  width: 100%;
+  height: 41%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 26rpx;
+  font-weight: 700;
+  font-style: '#414141';
+  padding-left: 21rpx;
+}
+
+.block {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.serviceTypeTitle {
+  height: 27.5%;
+}
+.typeBlock {
+  height: 72.5%;
+}
+.typeBlock .list {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.typeList1 {
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+.typeListImage {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 10%;
+}
+.typeListTitle {
+  font-size: 24rpx;
+  color: #696969;
+}
+.hoverTypeList {
+  box-shadow: inset 0 0 100rpx skyblue;
+}
+
+.serviceTradeTitle {
+  height: 13.7%;
+}
+.tradeBlock {
+  width: 100%;
+  height: 85.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tradeBlock .row {
+  width: 100%;
+  height: 33.3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tradeBlock .tradeRow1 {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+.tradeBlock .list {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tradeBlock .list image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 8%;
+}
+.tradeBlock .list text {
+  font-size: 24rpx;
+  color: #696969;
+  margin-top: 2%;
+}
+.tradeList1,
+.tradeList5,
+.tradeList9 {
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+
+.tradeList2,
+.tradeList6 {
+  border-right: 1px solid #e1e1e1;
+}
+.hoverTardeList {
+  background-color: #E1E1E1;
+}

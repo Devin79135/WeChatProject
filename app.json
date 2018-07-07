@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/abstract/abstract"
+  ],
+
+  "window": {
+    "navigationBarBackgroundColor": "#00A5E6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "河南睿远信息",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
